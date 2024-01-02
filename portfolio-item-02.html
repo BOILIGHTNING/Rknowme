@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>GBTB Iot Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo2.png" alt="Logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle Navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="index.html#achievements" class="nav__link">Achievements</a></li>
+            </ul>
+        </nav>
+        <!-- End of Navigation -->
+    </header>
+
+    <!-- Introduction Of Project -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            My Recent <strong>IOT Integration Mini Project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">[S.M.A.R.T TAMAN(GARDEN)] </p>
+        <img src="img/gbtb-project.jpg" alt="Project Image" class="intro__img">
+    </section>
+
+    <div class="ai-p">
+        <p class="border" style="text-align:center">
+            <strong>The Problem:</strong> The Garden by the Bay is a well-known tourist attraction in Singapore's southern
+            region. While it showcases a wide variety of plants and flowers, it lacks technological attractions and
+            cleaning efficiency, causing dissatisfaction among visitors.<br><br>
+            <strong>The Objective:</strong> I believe with a few tweaks, we can significantly improve the visitors'
+            experience and draw more attention, encouraging them to return with family and friends.</p>
+
+        <div class="border">
+            <h3 class="it-header">Type of Sensors, Actuators, Microcontroller, Communication Platform Used:</h3>
+            <ul>
+                <li><p>1) Ultrasonic sensor (Measure the height of rubbish in the bin, notify if full)</p></li>
+                <li><p>2) Light sensor (Measure light, act as a master switch for lights)</p></li>
+                <li><p>3) Temperature/Humidity sensor (Notify staff if it's going to rain)</p></li>
+                <li><p>4) Soil Moisture sensor (Turn on sprinkler when soil is dry)</p></li>
+                <li><p>5) Relay (Used to control the sprinkler)</p></li>
+                <li><p>6) 2 RGB lights (Weather indication, and Super tree grove)</p></li>
+                <li><p>7) MP3 module (Play a sound, indicating the bin is full)</p></li>
+                <li><p>8) Zigbee and WIFI (esp8266) module (Send data, Machine to Machine and web service respectively)</p></li>
+                <li><p>9) 3 Arduino Nano Microcontroller</p></li>
+                <li><p>10) 1 Raspberry Pi, Single-Board Computer</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="it-header">
+        <h3>The Results of the Project:</h3>
+    </div>
+
+    <div class="portfolio-item-individual gbtb">
+        <div class="gbtb-child">
+            <img src="img/pws.png" alt="Plant Watering System" class="gbtb__img gbtb-item-1">
+            <div class="gbtb__img2 gbtb-item-2">
+                <img src="img/ths.png" alt="Temp/Hum Sensor">
+            </div>
+            <img src="img/srb.png" alt="Smart Rubbish" class="gbtb__img gbtb-item-3">
+            <img src="img/psl.png" alt="Power Saving Light" class="gbtb__img gbtb-item-4">
+            <img src="img/tweet_1.png" alt="Twitter Message 1" class="gbtb__img gbtb-item-5">
+            <img src="img/tweet_2.png" alt="Twitter Message 2" class="gbtb__img3 gbtb-item-6">
+        </div>
+    </div>
+    <!-- End of Introduction of Project -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__text">To Contact Me Click Here: <a href="mailto:devriydho@gmail.com"
+                class="footer__link"><i class="fas fa-envelope"></i></a></p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
