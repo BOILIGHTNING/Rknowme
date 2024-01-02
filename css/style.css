@@ -409,9 +409,11 @@ header {
 .certificate {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-rows: repeat(11, 7vw);
     grid-gap: 15px;
 }
+
+
 
 .certificate__img--director,
 .certificate__img {
@@ -495,6 +497,35 @@ header {
     grid-row-start: 5;
     grid-row-end: 7;
 }
+
+.cert-item-7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.cert-item-8 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.cert-item-9 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
+.cert-item-10 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+
 
 
 /* Footer */
